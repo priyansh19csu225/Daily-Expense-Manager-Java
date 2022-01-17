@@ -1,0 +1,16 @@
+javac -cp classes/; -d classes/ src/exceptions/EmptyFileNameException.java
+javac -cp classes/; -d classes/ src/exceptions/InvalidPasswordException.java
+javac -cp classes/; -d classes/ src/exceptions/EmailException.java
+javac -cp classes/; -d classes/ src/exceptions/WrongPhoneNumberException.java
+javac -cp classes/; -d classes/ src/validators/Namevalidator.java
+javac -cp classes/; -d classes/ src/validators/CheckPassword.java
+javac -cp classes/; -d classes/ src/validators/dateValidator.java
+javac -cp classes/; -d classes/ src/validators/emailvalidator.java
+javac -cp classes/; -d classes/ src/validators/phonenumbervalidator.java
+javac -cp classes/; -d classes/ src/validators/expenseamount.java
+javac -cp classes/; -d classes/ src/processors/functions/add.java
+javac -cp classes/; -d classes/ src/processors/functions/file_delete1.java
+javac -cp classes/; -d classes/ src/processors/functions/update.java
+javac -cp classes/; -d classes/ src/processors/functions/display.java
+javac -cp classes/; -d classes/ src/main/Main.java
+java -cp classes/; main.Main
